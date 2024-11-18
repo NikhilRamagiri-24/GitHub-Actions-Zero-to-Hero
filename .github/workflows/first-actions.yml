@@ -1,7 +1,7 @@
 name: My First GitHub Actions
 
 on: [push]
-
+runs-on: self-hosted
 jobs:
   build:
     runs-on: ubuntu-20.04.6
